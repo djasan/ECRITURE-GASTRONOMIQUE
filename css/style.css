@@ -1,0 +1,117 @@
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: #7e0f0f;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #a71313;
+    text-decoration: none;
+}
+
+/* Section de produit */
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Styles pour la navigation dans le pied de page (optionnel) */
+footer nav ul {
+    margin-top: 10px;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+media querry
+
+/* Styles par défaut pour les deux écrans */
+body {
+    font-size: 16px;
+}
+
+/* Styles pour les écrans de petite taille (smartphones) */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    /* Ajoutez ici d'autres styles spécifiques aux smartphones */
+}
+
+/* Styles pour les écrans de grande taille (desktops) */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    /* Ajoutez ici d'autres styles spécifiques aux desktops */
+}
